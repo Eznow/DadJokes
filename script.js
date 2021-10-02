@@ -1,6 +1,8 @@
 const jokeE1 = document.getElementById('joke')
 const jokeBtn = document.getElementById('jokeBtn')
 
+alert('Please give me star')
+
 jokeBtn.addEventListener('click', generateJoke)
 
 generateJoke()
